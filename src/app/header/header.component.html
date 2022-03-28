@@ -1,0 +1,32 @@
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div class="links">
+            <li>Credit Card</li>
+            <li>SALT Token</li>
+            <li>Products</li>
+            <li>Resources</li>
+            <li>SALT Learn</li>
+        </div>
+        <div class="profile">
+            <button class="login">LOG IN</button>
+            <button class="signin">SIGN UP</button>
+        </div>
+        <div #m class="mobile">
+            <div class="m-links">
+                <li>Credit Card</li>
+                <li>SALT Token</li>
+                <li>Products</li>
+                <li>Resources</li>
+                <li>SALT Learn</li>
+            </div>
+            <div class="m-profile">
+                <button class="login btn">LOG IN</button>
+                <button class="signin btn">SIGN UP</button>
+            </div>
+        </div>
+        <button #b (click)="menu(m,b)" class="menu-btn"></button>
+    </div>
+</header>
